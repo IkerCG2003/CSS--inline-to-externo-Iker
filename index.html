@@ -17,24 +17,48 @@
             padding: 10px 20px;
         }
         */
-
         /*SELECTOR DE CLASE*/
-        .idea-principal{
-            color: rgba(0,0,255,0.5); 
-            font-size: 30px; 
+        
+        .idea-principal {
+            color: rgba(0, 0, 255, 0.5);
+            font-size: 30px;
             padding: 10px 20px;
         }
-
         /*SELECTOR DE ID*/
-        #software{
-            color:red;
+        
+        #software {
+            color: red;
+        }
+        /* EJERCICIO DE CLASE */
+        
+        body {
+            margin: 0;
+            padding-left: 20%;
+            padding-right: 20%;
+            background-color: aliceblue;
         }
         
+        ul {
+            background-color: rgba(0, 255, 0, 0.5);
+        }
+        
+        #azul {
+            color: blue;
+        }
+        
+        #rojo {
+            color: red;
+        }
+        
+        b {
+            color: green;
+        }
     </style>
 </head>
 
 <!-- <body style="margin: 0; padding-left: 20%; padding-right: 20%; background-image: url('./img/house.jpg'); background-size: contain; background-attachment: fixed; background-position: center;">-->
-<body style="margin: 0; padding-left: 20%; padding-right: 20%; background-color: aliceblue;">
+
+<body>
 
     <p><b>¿Qué es Git?</b></p>
     <!--Estilos en linea:
@@ -48,14 +72,14 @@
     <p>Además, los requerimientos en este tipo de proyectos cambian constantemente. ASí que un sistema de control de versiones permite a los desarrolladores revertir y regresar a una versión anterior de su código.</p>
     <p>El sistema de ramas en Git permite a los desarrolladores trabajar individualmente en una tarea.</p>
     <p>Por ejemplo:</p>
-    <ul style="background-color:rgba(0,255,0,0.5);">
+    <ul>
         <li>
             <!--amarillo-->
-            <p style="color: blue;">una rama -> una tarea</p>
+            <p id="azul">una rama -> una tarea</p>
         </li>
         <li>
             <!--rojo-->
-            <p style="color: red;">una rama -> un desarrollador</p>
+            <p id="rojo">una rama -> un desarrollador</p>
         </li>
     </ul>
 
@@ -70,34 +94,36 @@
     <ol>
         <li>
             <p><b>Git vs. HitHub - Función principal</b></p>
-            <p>Git es un sistema de control de versiones distribuido que registra las distintas versiones de un archivo (o conjunto de archivos). Le permite a los usuarios acceder, comparar, actualizar y distribuir cualquiera de las versiones registradas en
-                cualquier momento.</p>
+            <p>Git es un sistema de control de versiones distribuido que registra las distintas versiones de un archivo (o conjunto de archivos). Le permite a los usuarios acceder, comparar, actualizar y distribuir cualquiera de las versiones registradas
+                en cualquier momento.</p>
             <p>Sin embargo GitHub principalmente es una plataforma de alojamiento para albergar tus repositorios Git en la web. Esto permite a los usuarios mantener sus repositorios remotos privados o públicos para esfuerzos colaborativos.</p>
         </li>
-        
+
         <li>
             <p><b>Diferencia 2: Git vs. GitHub - Plataforma de operación</b></p>
             <p>Los usuarios instalan y ejecutan Git en sus equipos locales.</p>
             <p>Esto significa que la mayoría de las operaciones de Git se pueden lograr sin una conexión a internet.</p>
             <p>Sin embargo GitHub es un servicio basado en la web que opera solamente en línea. Esto significa que necesitas estar conectado para hacer cualquier cosa en GitHub.</p>
         </li>
-        
+
         <li>
             <p><b>Git vs. GitHub - Creadores</b></p>
             <p>Linus Torvalds comenzó Git en Abril del 2005.</p>
             <p>Chris Wanstrath, P. J. Hyett, Tom Preston-Werner, y Scott Chacon fundaron GitHub.com en Febrero 2008.</p>
         </li>
-        
-        <li><p><b>Git vs. GitHub - Soporte / mantenimiento</b></p>
+
+        <li>
+            <p><b>Git vs. GitHub - Soporte / mantenimiento</b></p>
             <p>En Julio 2005, Linus Torvalds entregó el mantenimiento de Git a Junio C. Hamano — quien ha dado soporte a la plataforma desde entonces.</p>
             <p>En Octubre 2018, Microsoft compró GitHub.</p>
         </li>
-        
-        <li><p><b>Git vs. GitHub - Competidores</b></p>
+
+        <li>
+            <p><b>Git vs. GitHub - Competidores</b></p>
             <p>Algunas alternativas populares para Git son Mercurial, Team Foundation Version Control (TFVC), Perforce Helix Core, Apache Subversion, y IBM Rational ClearCase.</p>
             <p>os competidores más cercanos a GitHub son GitLab, Bitbucket, SourceForge, Cloud Source Repositories, y AWS CodeCommit.</p>
         </li>
-        
+
     </ol>
 </body>
 
