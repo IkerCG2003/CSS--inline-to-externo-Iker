@@ -1,0 +1,46 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.idea-principal {
+    color: rgba(0, 0, 255, 0.5);
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+
+/*SELECTOR DE ID*/
+
+ol p {
+    background-color: yellow;
+}
+
+#software {
+    color: red;
+}
+
+
+/* EJERCICIO DE CLASE */
+
+body {
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: aliceblue;
+}
+
+ul {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#azul {
+    color: blue;
+}
+
+#rojo {
+    color: red;
+}
+
+b {
+    color: green;
+}
